@@ -6,7 +6,7 @@
  */
 int main(void)
 {
-unsigned long int sum3, sum5 sum;
+unsigned long int sum3, sum5, sum;
 int i;
 sum3 = 0;
 sum5 = 0;
@@ -16,9 +16,9 @@ for (i = 0; i < 1024; ++i)
 if ((i % 3) == 0)
 {
 sum3 = sum3 + 1;
-{
-else if ((i % 5) == 0)
 }
+else if ((i % 5) == 0)
+{
 sum5 = sum5 + i;
 }
 }
